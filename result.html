@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Result Page</title>
+    </head>
+    <body>
+        <form>
+            <center>
+                <h1 style="padding-top: 4%;">{{prediction}}</h1>
+            <div style="border-color: black; border-width: 1px; border-style: solid; padding: 50px;
+                                 margin: 100px; width: 550px; height: 500px; text-align: center; background-color: lavender;">
+            <table>
+                <center>
+                <tr>
+                    <td><h3 style="color: brown;">Categories</h3></td><td><h3 style="color: brown;">Your Level</h3></td><td><h3 style="color: brown;">Must Be</h3></td>
+                </tr>
+                <tr>
+                    <td><h4>Blood Sugar Level :</h4></td><td><h4>{{bs1}}mg/dL</h3></td>
+                    <td><h4>befor eating :70 to 100 mg/dL,after eating :Less than 140 mg/dL</h4></td>
+                </tr>
+                <tr>
+                    <td><h4>Blood Urea :</h4></td><td><h4>{{bu1}}mg/dL</h4></td>
+                    <td><h4>7 to 20 mg/dL</h4></td>
+                </tr>
+                <tr>
+                    <td><h4>Serum Creatinine :</h4></td><td><h4>{{scr1}}mg/dL</h4></td>
+                    <td><h4>Men: 0.7 to 1.3 mg/dL,Women: 0.6 to 1.1 mg/dL</h4></td>
+
+                </tr>
+                <tr>
+                    <td><h4>Packed Cell Volume :</h4></td><td><h4>{{pcv1}}%</h4></td>
+                    <td><h4>Men: 38.3% to 48.6%,Women: 35.5% to 44.9%</h4></td>
+                </tr>
+                <tr>
+                    <td><h4>White Blood Cell Count :</h4></td><td><h4>{{wbc1}}cells/µL</h4></td>
+                    <td><h4>4,500 to 11,000 cells per microliter (cells/µL)</h4></td>
+                </tr>
+            </center>
+            </table>
+            </div>
+            </center>
+        </form>
+    </body>
+</html>

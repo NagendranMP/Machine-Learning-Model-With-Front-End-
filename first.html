@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kidney Disease Prediction</title>
+    </head>
+    <body>
+        <center>
+            <h1 style="padding-top: 3%;">Kidney Disease Prediction</h1>
+        </center>
+        <form action="/conv" method="post">
+            <center>
+                <table style="padding-top: 3%; border-spacing: 15px;">
+                    <tr>
+                        <td>Blood Sugar Level :</td>
+                        <td><input type="number" placeholder="Blood Sugar Level" name="bsl" style="width: 250px; padding: 7px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Blood Urea :</td>
+                        <td><input type="number" placeholder="Urea Level" name="bu" style="width: 250px; padding: 7px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Serum Creatinine :</td>
+                        <td><input type="number" placeholder="Serum Creatinine" name="sc" style="width: 250px; padding: 7px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Packed Cell Volume :</td>
+                        <td><input type="number" placeholder="Packed Cell Volume" name="pcv" style="width: 250px; padding: 7px;"></td>
+                    </tr>
+                    <tr>
+                        <td>White Blood Cell Count :</td>
+                        <td><input type="number" placeholder="WBC" name="wbc" style="width: 250px; padding: 7px;"></td>
+                    </tr>
+                </table>
+            </center>
+            <center>
+                <input type="submit" value="Upload" style="width: 250px; padding: 7px; background-color: chartreuse;">
+            </center>
+        </form>
+    </body>
+</html>
